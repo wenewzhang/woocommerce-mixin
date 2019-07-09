@@ -1,0 +1,103 @@
+[08-Jul-2019 07:15:57 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 07:15:57 UTC] init_form_fields
+[08-Jul-2019 07:16:09 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 07:16:09 UTC] init_form_fields
+[08-Jul-2019 07:16:25 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 07:16:25 UTC] init_form_fields
+[08-Jul-2019 07:16:25 UTC] admin_options
+[08-Jul-2019 07:16:25 UTC] generate_order_statuses_html
+[08-Jul-2019 07:16:25 UTC] cgOrderStatuses
+[08-Jul-2019 07:35:32 UTC] mx add_MixinNetwork_gateway
+[08-Jul-2019 07:35:32 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 07:35:32 UTC] WC_Payment_Gateway
+[08-Jul-2019 07:35:32 UTC] init_form_fields
+[08-Jul-2019 07:50:58 UTC] mx add_MixinNetwork_gateway
+[08-Jul-2019 07:50:58 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 07:50:58 UTC] WC_Payment_Gateway
+[08-Jul-2019 07:50:58 UTC] init_form_fields
+[08-Jul-2019 07:52:49 UTC] mx add_MixinNetwork_gateway
+[08-Jul-2019 07:52:49 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 07:52:49 UTC] WC_Payment_Gateway
+[08-Jul-2019 07:52:49 UTC] init_form_fields
+[08-Jul-2019 07:52:49 UTC] admin_options
+[08-Jul-2019 07:52:49 UTC] generate_order_statuses_html
+[08-Jul-2019 07:52:49 UTC] cgOrderStatuses
+[08-Jul-2019 07:53:50 UTC] mx add_MixinNetwork_gateway
+[08-Jul-2019 07:53:50 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 07:53:50 UTC] WC_Payment_Gateway
+[08-Jul-2019 07:53:50 UTC] init_form_fields
+[08-Jul-2019 07:53:54 UTC] mx add_MixinNetwork_gateway
+[08-Jul-2019 07:53:54 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 07:53:54 UTC] WC_Payment_Gateway
+[08-Jul-2019 07:53:54 UTC] init_form_fields
+[08-Jul-2019 08:02:03 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/canonical.php on line 507
+[08-Jul-2019 08:02:03 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/canonical.php on line 508
+[08-Jul-2019 08:02:03 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/canonical.php on line 508
+[08-Jul-2019 08:02:03 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/canonical.php on line 509
+[08-Jul-2019 08:02:03 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/canonical.php on line 512
+[08-Jul-2019 08:02:03 UTC] PHP Notice:  Undefined index: scheme in /var/www/html/wp-includes/canonical.php on line 533
+[08-Jul-2019 08:02:03 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/canonical.php on line 507
+[08-Jul-2019 08:02:03 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/canonical.php on line 508
+[08-Jul-2019 08:02:03 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/canonical.php on line 508
+[08-Jul-2019 08:02:03 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/canonical.php on line 509
+[08-Jul-2019 08:02:03 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/canonical.php on line 512
+[08-Jul-2019 08:02:03 UTC] PHP Notice:  Undefined index: scheme in /var/www/html/wp-includes/canonical.php on line 533
+[08-Jul-2019 08:13:39 UTC] mx add_MixinNetwork_gateway
+[08-Jul-2019 08:13:39 UTC] WC_Gateway_MixinNetwork __construct
+[08-Jul-2019 08:13:39 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 08:13:39 UTC] WC_Gateway_Coingate __construct
+[08-Jul-2019 08:13:39 UTC] init_form_fields
+[08-Jul-2019 08:13:42 UTC] mx add_MixinNetwork_gateway
+[08-Jul-2019 08:13:42 UTC] WC_Gateway_MixinNetwork __construct
+[08-Jul-2019 08:13:42 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 08:13:42 UTC] WC_Gateway_Coingate __construct
+[08-Jul-2019 08:13:42 UTC] init_form_fields
+[08-Jul-2019 08:13:48 UTC] mx add_MixinNetwork_gateway
+[08-Jul-2019 08:13:48 UTC] WC_Gateway_MixinNetwork __construct
+[08-Jul-2019 08:13:48 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 08:13:48 UTC] WC_Gateway_Coingate __construct
+[08-Jul-2019 08:13:48 UTC] init_form_fields
+[08-Jul-2019 08:14:00 UTC] mx add_MixinNetwork_gateway
+[08-Jul-2019 08:14:00 UTC] WC_Gateway_MixinNetwork __construct
+[08-Jul-2019 08:14:00 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 08:14:00 UTC] WC_Gateway_Coingate __construct
+[08-Jul-2019 08:14:00 UTC] init_form_fields
+[08-Jul-2019 08:22:39 UTC] mx add_MixinNetwork_gateway
+[08-Jul-2019 08:22:39 UTC] WC_Gateway_MixinNetwork __construct
+[08-Jul-2019 08:22:39 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 08:22:39 UTC] WC_Gateway_Coingate __construct
+[08-Jul-2019 08:22:39 UTC] init_form_fields
+[08-Jul-2019 08:22:45 UTC] mx add_MixinNetwork_gateway
+[08-Jul-2019 08:22:45 UTC] WC_Gateway_MixinNetwork __construct
+[08-Jul-2019 08:22:45 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 08:22:45 UTC] WC_Gateway_Coingate __construct
+[08-Jul-2019 08:22:45 UTC] init_form_fields
+[08-Jul-2019 08:24:41 UTC] mx add_MixinNetwork_gateway
+[08-Jul-2019 08:24:41 UTC] WC_Gateway_MixinNetwork __construct
+[08-Jul-2019 08:24:41 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 08:24:41 UTC] WC_Gateway_Coingate __construct
+[08-Jul-2019 08:24:41 UTC] init_form_fields
+[08-Jul-2019 08:24:46 UTC] mx add_MixinNetwork_gateway
+[08-Jul-2019 08:24:46 UTC] WC_Gateway_MixinNetwork __construct
+[08-Jul-2019 08:24:46 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 08:24:46 UTC] WC_Gateway_Coingate __construct
+[08-Jul-2019 08:24:46 UTC] init_form_fields
+[08-Jul-2019 08:24:46 UTC] admin_options
+[08-Jul-2019 08:24:46 UTC] generate_order_statuses_html
+[08-Jul-2019 08:24:46 UTC] cgOrderStatuses
+[08-Jul-2019 08:24:57 UTC] mx add_MixinNetwork_gateway
+[08-Jul-2019 08:24:57 UTC] WC_Gateway_MixinNetwork __construct
+[08-Jul-2019 08:24:57 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 08:24:57 UTC] WC_Gateway_Coingate __construct
+[08-Jul-2019 08:24:57 UTC] init_form_fields
+[08-Jul-2019 08:24:57 UTC] validate_order_statuses_field
+[08-Jul-2019 08:24:57 UTC] save_order_statuses
+[08-Jul-2019 08:24:57 UTC] cgOrderStatuses
+[08-Jul-2019 08:24:57 UTC] mx add_MixinNetwork_gateway
+[08-Jul-2019 08:24:57 UTC] WC_Gateway_MixinNetwork __construct
+[08-Jul-2019 08:24:57 UTC] mixinnetwork init_form_fields
+[08-Jul-2019 08:24:57 UTC] WC_Gateway_Coingate __construct
+[08-Jul-2019 08:24:57 UTC] init_form_fields
+[08-Jul-2019 08:24:57 UTC] admin_options
+[08-Jul-2019 08:24:57 UTC] generate_order_statuses_html
+[08-Jul-2019 08:24:57 UTC] cgOrderStatuses
