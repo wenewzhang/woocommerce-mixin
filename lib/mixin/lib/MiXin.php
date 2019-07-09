@@ -43,14 +43,14 @@ class MiXin
 
         # Check if credentials was passed
         if (empty($auth_token))
-            \CoinGate\Exception::throwException(400, array('reason' => 'AuthTokenMissing'));
+            \MiXin\Exception::throwException(400, array('reason' => 'AuthTokenMissing'));
 
         # Check if right environment passed
         $environments = array('live', 'sandbox');
 
         if (!in_array($environment, $environments)) {
             $availableEnvironments = join(', ', $environments);
-            \CoinGate\Exception::throwException(400, array('reason' => 'BadEnvironment', 'message' => "Environment does not exist. Available environments: $availableEnvironments"));
+            \MiXin\Exception::throwException(400, array('reason' => 'BadEnvironment', 'message' => "Environment does not exist. Available environments: $availableEnvironments"));
         }
 
         $url       = ($environment === 'sandbox' ? 'https://api-sandbox.coingate.com/v2' : 'https://api.coingate.com/v2') . $url;
@@ -80,6 +80,6 @@ class MiXin
         if ($http_status === 200)
             return $response;
         else
-            \CoinGate\Exception::throwException($http_status, $response);
+            \MiXin\Exception::throwException($http_status, $response);
     }
 }

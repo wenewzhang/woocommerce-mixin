@@ -1,15 +1,14 @@
 <?php
 
 /*
-Plugin Name: WooCommerce Payment Gateway - CoinGate
-Plugin URI: https://coingate.com
-Description: Accept Bitcoin via CoinGate in your WooCommerce store
+Plugin Name: WooCommerce Payment Gateway - MiXin
+Plugin URI: https://mixin.one
+Description: Accept Bitcoin via MiXin in your WooCommerce store
 Version: 1.2.3
-Author: CoinGate
-Author URI: https://coingate.com
+Author: MiXin
+Author URI: https://mixin.one
 License: MIT License
-License URI: https://github.com/coingate/woocommerce-plugin/blob/master/LICENSE
-Github Plugin URI: https://github.com/coingate/woocommerce-plugin
+Github Plugin URI: https://github.com/wenewzhang/woocommerce-mixin
 */
 
 add_action('plugins_loaded', 'mixin_init');
@@ -35,7 +34,7 @@ function mixin_init()
             $this->id = 'mixin';
             $this->has_fields = false;
             $this->method_title = 'MiXin';
-            $this->icon = apply_filters('woocommerce_coingate_icon', PLUGIN_DIR . 'assets/bitcoin.png');
+            $this->icon = apply_filters('woocommerce_mixin_icon', PLUGIN_DIR . 'assets/bitcoin.png');
 
             $this->init_form_fields();
             $this->init_settings();
@@ -342,22 +341,23 @@ function mixin_init()
             }
         }
 
-        // private function cgOrderStatuses()
-        // {
-        //     error_log("cgOrderStatuses");
-        //     return array('paid' => 'Paid', 'invalid' => 'Invalid', 'expired' => 'Expired', 'canceled' => 'Canceled', 'refunded' => 'Refunded');
-        // }
-        //
-        // private function init_coingate()
-        // {
-        //     \CoinGate\CoinGate::config(
-        //         array(
-        //             'auth_token'    => (empty($this->api_auth_token) ? $this->api_secret : $this->api_auth_token),
-        //             'environment'   => ($this->test ? 'sandbox' : 'live'),
-        //             'user_agent'    => ('CoinGate - WooCommerce v' . WOOCOMMERCE_VERSION . ' Plugin v' . COINGATE_WOOCOMMERCE_VERSION),
-        //         )
-        //     );
-        // }
+        private function cgOrderStatuses()
+        {
+            error_log("mixin cgOrderStatuses");
+            return array('paid' => 'Paid', 'invalid' => 'Invalid', 'expired' => 'Expired', 'canceled' => 'Canceled', 'refunded' => 'Refunded');
+        }
+
+        private function init_mixin()
+        {
+          error_log("mixin init_mixin");
+            \MiXin\MiXin::config(
+                array(
+                    'auth_token'    => (empty($this->api_auth_token) ? $this->api_secret : $this->api_auth_token),
+                    'environment'   => ($this->test ? 'sandbox' : 'live'),
+                    'user_agent'    => ('CoinGate - WooCommerce v' . WOOCOMMERCE_VERSION . ' Plugin v' . COINGATE_WOOCOMMERCE_VERSION),
+                )
+            );
+        }
     }
 
     function add_mixin_gateway($methods)
