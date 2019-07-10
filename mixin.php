@@ -51,6 +51,8 @@ function mixin_init()
             add_action('woocommerce_update_options_payment_gateways_' . $this->id, array($this, 'save_order_statuses'));
             add_action('woocommerce_thankyou_mixin', array($this, 'thankyou'));
             add_action('woocommerce_api_wc_gateway_mixin', array($this, 'payment_callback'));
+
+            add_action( 'admin_menu', array($this, 'register_newpage') );
         }
 
         public function admin_options()
@@ -358,6 +360,13 @@ function mixin_init()
                 )
             );
         }
+
+        public function register_newpage() {
+            error_log("mixin register_newpage");
+            // add_menu_page('custom_page', 'custom', 'administrator','custom', 'custompage');
+            add_menu_page( 'newpage title', '', 'manage_options', 'woocommerce-mixin/pay_methods.php', '', plugins_url( 'woocommerce-mixin/assets/bitcoin.png' ), 6 );
+            // remove_menu_page('custom');
+        }
     }
 
     function add_mixin_gateway($methods)
@@ -367,5 +376,8 @@ function mixin_init()
         return $methods;
     }
 
+    // error_log("mixin init hook");
+
     add_filter('woocommerce_payment_gateways', 'add_mixin_gateway');
+
 }
